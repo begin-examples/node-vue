@@ -7,7 +7,7 @@
     "api": "NODE_ENV=testing ARC_LOCAL=1 npx sandbox",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
+    "lint": "eslint src --ignore-pattern node_modules --fix",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
