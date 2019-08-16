@@ -11,11 +11,11 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "@architect/functions": "^3.3.0",
     "core-js": "^2.6.5",
     "vue": "^2.6.10"
   },
   "devDependencies": {
-    "@architect/functions": "^3.3.0",
     "@architect/architect": "^5.9.25",
     "@vue/cli-plugin-babel": "^3.10.0",
     "@vue/cli-plugin-eslint": "^3.10.0",
