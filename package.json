@@ -16,7 +16,7 @@
     "vue": "^2.6.10"
   },
   "devDependencies": {
-    "@architect/architect": "^5.9.25",
+    "@architect/architect": "^6.0.10",
     "@vue/cli-plugin-babel": "^3.10.0",
     "@vue/cli-plugin-eslint": "^3.10.0",
     "@vue/cli-plugin-unit-mocha": "^3.10.0",
