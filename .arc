@@ -1,9 +1,12 @@
+# Warning: do not edit
+# --------------------
+# This is a generated file and will be overwritten
+
 @app
-node-vue
+begin-app
 
 @static
 folder dist
 
 @http
-get /
 get /api

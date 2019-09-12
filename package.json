@@ -1,7 +1,7 @@
 {
-  "name": "node-vue",
-  "version": "0.1.0",
-  "private": true,
+  "name": "begin-app",
+  "version": "0.0.0",
+  "description": "Begin basic Vue app + API",
   "scripts": {
     "start": "npm run api & npm run serve",
     "api": "NODE_ENV=testing ARC_LOCAL=1 npx sandbox",
@@ -10,13 +10,9 @@
     "lint": "eslint src --ignore-pattern node_modules --fix",
     "test:unit": "vue-cli-service test:unit"
   },
-  "dependencies": {
-    "@architect/functions": "^3.3.11",
-    "core-js": "^3.2.1",
-    "vue": "^2.6.10"
-  },
   "devDependencies": {
-    "@architect/architect": "^6.0.10",
+    "@architect/sandbox": "latest",
+    "@begin/data": "latest",
     "@vue/cli-plugin-babel": "^3.11.0",
     "@vue/cli-plugin-eslint": "^3.11.0",
     "@vue/cli-plugin-unit-mocha": "^3.11.0",
@@ -24,8 +20,10 @@
     "@vue/test-utils": "1.0.0-beta.29",
     "babel-eslint": "^10.0.3",
     "chai": "^4.2.0",
-    "eslint": "^6.3.0",
+    "core-js": "^3.2.1",
     "eslint-plugin-vue": "^5.2.3",
-    "vue-template-compiler": "^2.6.10"
+    "eslint": "^6.3.0",
+    "vue-template-compiler": "^2.6.10",
+    "vue": "^2.6.10"
   }
 }
