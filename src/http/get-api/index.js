@@ -1,10 +1,9 @@
-// learn more about http functions here: https://arc.codes/guides/http
-exports.handler = async function http () {
-  console.log('API Called')
+exports.handler = async function http (req) {
+  console.log('Begin API called')
   return {
-    type: 'application/json',
+    headers: {'content-type': 'application/json; charset=utf8'},
     body: JSON.stringify({
-      msg: 'hello from your API'
+      msg: 'Hello from your Begin API!'
     })
   }
 }
