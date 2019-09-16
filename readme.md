@@ -1,11 +1,11 @@
 # "Begin basic Vue app + API
 
-Vue's starter app, able to be extended by Begin-based API endpoints.
+[Vue](https://vuejs.org)'s starter app, extended by [Begin](https://begin.com)-based API endpoints.
 
 
 ## Getting started
 
-## Project setup
+### Project setup
 ```
 npm install
 ```

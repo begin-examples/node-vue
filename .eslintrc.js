@@ -1,20 +1,19 @@
 module.exports = {
-  'root': true,
-  'env': {
-    'node': true,
-    'es6': true
+  env: {
+    node: true,
+    es6: true
   },
-  'extends': [
+  extends: [
     'plugin:vue/essential',
     'eslint:recommended'
   ],
-  'parserOptions': {
-    'ecmaVersion': 2018
+  parserOptions: {
+    ecmaVersion: 2018
   },
-  'rules': {
+  rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'semi': ['error', 'never'],
+    semi: ['error', 'never'],
     // enable additional rules
     'linebreak-style': ['error', 'unix'],
     // node specific
@@ -31,7 +30,7 @@ module.exports = {
     'no-trailing-spaces': 'error',
     'no-unused-vars': ['error', { 'args': 'none' }]
   },
-  'parserOptions': {
-    'parser': 'babel-eslint'
+  parserOptions: {
+    parser: 'babel-eslint'
   }
 }
