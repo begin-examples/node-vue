@@ -1,4 +1,4 @@
-# "Begin basic Vue app + API
+# Begin basic Vue app + API
 
 [Vue](https://vuejs.org)'s starter app, extended by [Begin](https://begin.com)-based API endpoints.
 
