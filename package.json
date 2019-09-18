@@ -6,7 +6,7 @@
     "start": "npm run build && npm run api",
     "api": "cross-env NODE_ENV=testing ARC_LOCAL=1 npx sandbox",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --silent",
+    "build": "vue-cli-service build",
     "lint": "eslint src --ignore-pattern node_modules --fix",
     "test": "cross-env NODE_ENV=testing PORT=6666 tape test/*-test.js test/**/*-test.js | tap-spec && vue-cli-service test:unit",
     "test:unit": "vue-cli-service test:unit"
@@ -30,5 +30,8 @@
     "tiny-json-http": "^7.1.2",
     "vue": "^2.6.10",
     "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "simple-progress-webpack-plugin": "^1.1.2"
   }
 }
