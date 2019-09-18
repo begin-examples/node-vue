@@ -3,7 +3,7 @@ exports.handler = async function http (req) {
   return {
     headers: {'content-type': 'application/json; charset=utf8'},
     body: JSON.stringify({
-      msg: 'Hello from your Begin API!'
+      message: 'Hello from your Begin API!'
     })
   }
 }

@@ -5,5 +5,8 @@ module.exports = {
         target: 'http://localhost:3333'
       }
     }
+  },
+  configureWebpack: {
+    stats: 'minimal'
   }
 }

@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Begin basic Vue app + API",
   "scripts": {
-    "start": "npm run api & npm run serve",
+    "start": "npm run build && npm run api",
     "api": "cross-env NODE_ENV=testing ARC_LOCAL=1 npx sandbox",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

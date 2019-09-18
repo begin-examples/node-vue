@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld :msg="msg"/>
+    <HelloWorld :message="message"/>
   </div>
 </template>
 
@@ -12,7 +12,7 @@ export default {
   name: 'app',
   data: function () {
     return {
-      msg: 'Loading...'
+      message: 'Loading...'
     }
   },
   components: {
@@ -22,9 +22,9 @@ export default {
     getData: async function () {
       try {
         let data = await (await fetch('api')).json()
-        this.msg = data.msg
+        this.message = data.message
       } catch (err) {
-        throw err
+        this.message = err.message
       }
     }
   },
