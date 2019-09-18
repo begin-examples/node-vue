@@ -7,7 +7,6 @@ module.exports = {
     }
   },
   configureWebpack: {
-    stats: 'errors-only',
-    progress: false
+    stats: 'errors-only'
   }
 }
