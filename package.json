@@ -31,7 +31,5 @@
     "vue": "^2.6.10",
     "vue-template-compiler": "^2.6.10"
   },
-  "dependencies": {
-    "simple-progress-webpack-plugin": "^1.1.2"
-  }
+  "dependencies": {}
 }
