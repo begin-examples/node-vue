@@ -1,5 +1,7 @@
 # Begin basic Vue app + API
 
+$BADGE
+
 [Vue](https://vuejs.org)'s starter app, extended by [Begin](https://begin.com)-based API endpoints.
 
 
