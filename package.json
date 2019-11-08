@@ -24,7 +24,7 @@
     "core-js": "^3.2.1",
     "cross-env": "^5.2.1",
     "eslint": "^6.4.0",
-    "eslint-plugin-vue": "^5.2.3",
+    "eslint-plugin-vue": "^6.0.0",
     "tap-spec": "^5.0.0",
     "tape": "^4.11.0",
     "tiny-json-http": "^7.1.2",
