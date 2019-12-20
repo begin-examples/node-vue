@@ -5,6 +5,13 @@ $BADGE
 [Vue](https://vuejs.org)'s starter app, extended by [Begin](https://begin.com)-based API endpoints.
 
 
+## Deploy your own
+
+$DEPLOY
+
+Deploy your own clone of this app to Begin!
+
+
 ## Getting started
 
 ### Project setup
