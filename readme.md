@@ -1,6 +1,6 @@
-<img src="https://static.begin.app/node-vue/readme-banner.png" width="561">
+<img src="https://static.begin.app/node-vue/readme-banner.png" width="726">
 
-\$BADGE
+$BADGE
 
 [Vue](https://vuejs.org)'s starter app, extended by [Begin](https://begin.com)-based API endpoints.
 
