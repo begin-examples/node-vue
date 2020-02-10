@@ -14,7 +14,7 @@
   "devDependencies": {
     "@architect/sandbox": "latest",
     "@begin/data": "latest",
-    "@vue/cli-plugin-babel": "^4.0.5",
+    "@vue/cli-plugin-babel": "^4.2.2",
     "@vue/cli-plugin-eslint": "^4.0.5",
     "@vue/cli-plugin-unit-mocha": "^4.0.5",
     "@vue/cli-service": "^4.0.5",
