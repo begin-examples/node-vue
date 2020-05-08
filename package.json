@@ -12,7 +12,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "devDependencies": {
-    "@architect/sandbox": "^1.9.5",
+    "@architect/sandbox": "^1.9.6",
     "@begin/data": "latest",
     "@vue/cli-plugin-babel": "^4.3.1",
     "@vue/cli-plugin-eslint": "^4.3.1",
