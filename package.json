@@ -15,7 +15,7 @@
     "@architect/sandbox": "^1.12.3",
     "@begin/data": "latest",
     "@vue/cli-plugin-babel": "^4.4.4",
-    "@vue/cli-plugin-eslint": "^4.4.4",
+    "@vue/cli-plugin-eslint": "^4.4.5",
     "@vue/cli-plugin-unit-mocha": "^4.4.4",
     "@vue/cli-service": "^4.4.5",
     "@vue/test-utils": "1.0.0-beta.32",
