@@ -5,7 +5,9 @@ begin-app
 folder dist
 
 @http
-get /api
+/api
+  method get
+  src src/api
 
 @tables
 data
