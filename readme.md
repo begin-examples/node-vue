@@ -12,31 +12,31 @@ Deploy your own clone of this app to Begin!
 
 ## Getting started
 
-### Project setup
+### Install dependencies
 
 ```
 npm install
 ```
 
-### Start the local dev server
+### Start a local server
 
 ```
 npm start
 ```
 
-### Compile & hot-reload for development
+### Start a hot reloading local development server
 
 ```
 npm run serve
 ```
 
-### Compile & hot-reload for production
+### Run a production build
 
 ```
 npm run build
 ```
 
-### Lint & fix files
+### Check files for syntax errors
 
 ```
 npm run lint
