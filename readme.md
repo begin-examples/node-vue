@@ -48,12 +48,6 @@ npm run lint
 npm run test
 ```
 
-### Run unit tests
-
-```
-npm run test:unit
-```
-
 ## Begin Reference
 
 - [Quickstart](https://docs.begin.com/en/guides/quickstart/) - basics on working locally, project structure, deploying, and accessing your Begin app
