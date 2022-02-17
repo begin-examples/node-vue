@@ -47,7 +47,7 @@
     "vue-template-compiler": "^2.6.12"
   },
   "dependencies": {
-    "@architect/sandbox": "^4.1.1",
+    "@architect/sandbox": "^5.0.0",
     "@begin/data": "^3.0.0"
   }
 }
